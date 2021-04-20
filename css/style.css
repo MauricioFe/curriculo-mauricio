@@ -1,0 +1,166 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    background-color: #3C5769;
+}
+
+header img {
+    border-radius: 50% !important;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 2.3rem;
+    color: #f6f6f6;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+aside {
+    background: #F5F5F5;
+    width: 30%;
+    height: 100%;
+}
+
+.contato-item {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contato-item {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+font-size: 0.8rem;
+}
+
+.feather-16 {
+    width: 24px;
+    height: 24px;
+}
+
+.contato-item span, .contato-item a {
+    margin-left: 1.6rem;
+}
+.formacao, .competencias, .certificados{
+    width: 100%;
+    padding: 15px 30px;
+}
+
+aside h4{
+    font-size: 1.2rem;
+}
+.formacao p{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 0.9rem;
+}
+.formacao h5{
+    font-size: 1rem;
+    margin: 2% 0;
+}
+.container-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 5%;
+}
+
+aside ul{
+    margin-left: 18px;
+    margin-top: 1.5rem;
+}
+
+.resumo {
+    width: 95%;
+    margin: 2rem auto;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    padding-left: 0;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+h3::after {
+    content: "";
+    width: 60%;
+    height: 3px;
+    background-color: #3C5769;
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+}
+
+.resumo p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.experiencia {
+    padding: 1.2rem 0;
+}
+
+.cabecalho-experiencia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cabecalho-experiencia img {
+    width: 200px;
+}
+
+.cabecalho-experiencia .dados-experiencia {
+    margin-left: 3%;
+}
+
+.cabecalho-experiencia .dados-experiencia h4 {
+    font-size: 1.1rem;
+    color: #222;
+    font-weight: 900;
+}
+
+.cabecalho-experiencia .dados-experiencia h4, .experiencia .dados-experiencia p {
+    margin: 1% auto;
+}
+
+.descricao-experiencia {
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.divisor {
+    height: 2px;
+    background-color: rgb(149, 149, 149);
+    width: 100%;
+    margin: 1rem 0;
+}
+.realizacao-item, .idioma-item{
+    margin-bottom: 1rem;
+}
+
+.realizacao-item:nth-child(3), .idioma-item:nth-child(3){
+    margin-top: 1rem;
+}
+
+
+
